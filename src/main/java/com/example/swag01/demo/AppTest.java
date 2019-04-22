@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppTest {
 
-    @RequestMapping("/escn")
+    @RequestMapping("/dev")
     public String ping(){
-        return "RCB";
+        return "This is dev branch!";
     }
 }
